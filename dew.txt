@@ -1,0 +1,27 @@
+passo a passo Github
+1- entrar no github com email e senha
+2-entrar no VSCode
+3-fechar pasta (se estiver aberta) -file-->Close Folder
+4-ir no botão source-control
+5-botão clone-repository
+6-copiar url do repositorio do Github e colar no VSCode e teclar "enter"
+7-clonar o diretorio em c1/xamp/htdocs e aplicar em open
+8- tela azul se confia em author clicar em sim
+9-----------fim da clonagem do repositorio do github---------------------
+
+------------configurar terminal--------------------
+1-ir no menu termibal --> new terminal
+2-digitar comandos:
+git config --global user.email "email-do-github"
+git config --global user.name "nome-usuario-github"
+3-fechar terminal 
+------------------------------------------------------------------------------------
+--------------------enviando mudanças para github-----------------------------------
+1-salvar as mudanças "ctrl+s"
+2-ir no source-control
+3-em changes clicar em +
+4-colocar mensagens no commit
+5-clicar em commit & push
+7-na primeira vez dar as autorizações - na segunda não será necessário 
+8-ver no github se foi atualizado 
+--------------------------------------fim--------------------------------------------
