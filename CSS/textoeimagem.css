@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+p {
+    position: relative;
+    width: 500px;
+
+}
+img {
+    position: relative;
+    top: -550px;
+    left: 500px;
+}
+h2 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
