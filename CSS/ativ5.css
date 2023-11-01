@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.q {
+    display: grid;
+    background-color:bisque;
+    width: 800px;
+    height: 800px;
+    grid-template-areas: 
+    "logo logo banner banner banner banner banner"
+    "logsenha logsenha menu2 menu2 menu2 menu2 menu2"
+    "logsenha logsenha menu3 menu3 menu3 menu3 menu3"
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    "menu1 menu1 texto texto texto menu4 menu4 "
+    ;
+
+.logo{
+    grid-area: logo ;
+    
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.q {
+    display: grid;
+    background-color: bisque;
+    width: 800px;
+    height: 800px;
+    grid-template-areas: 
+    "logo logo banner banner banner banner"
+    "menu1 menu1 menu1 menu1 menu1 menu1"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "texto texto texto texto texto texto"
+    "menu2 menu2 menu2 menu2 menu2 menu2"
+    ;
+}
+
+.logo {
+    grid-area: logo ;
+    background-color: darkorange;
+}
+.banner {
+    grid-area: banner;
+    background-color: black;
+}
+.menu1 {
+    grid-area: menu1;
+    background-color: cadetblue;
+}
+.menu2 {
+    grid-area: menu2;
+    background-color: indianred;
+}
